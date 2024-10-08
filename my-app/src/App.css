@@ -1,0 +1,163 @@
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.addtobagBTN{
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(27, 171, 27);
+}
+
+.bagbtn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.amount_list{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: aqua; */
+  padding-top: 10px;
+}
+
+.current_price{
+  font-weight: 700;
+}
+
+.original_price{
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.discount_amount{
+  color: orange;
+}
+
+
+.bagItems{
+  font-size: small;
+  display: flex;
+  justify-content: space-around;
+  gap: 4%;
+  width: 80%;
+  padding: 1%;
+  border-radius: 7px;
+  border: 1px solid #ddd;  
+  background-color: #f9f9f9; 
+}
+
+.images{
+  width: 200px;
+  height: 200px;
+}
+
+.bag_content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.main-container {
+  display: flex;          
+  justify-content: space-between; 
+  align-items: flex-start; 
+  padding: 5% 0;
+   
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;   
+  width: 65%;               
+  gap: 16px;  
+  margin-left: 5%;
+  
+}
+
+.bagSummary {
+  width: 30%;               
+  padding: 20px;            
+  border: 1px solid #ddd;  
+  background-color: #f9f9f9; 
+  margin-right: 5%;
+}
+
+.mrp, .discount, .convenience_fee, .total_amount {
+  display: flex;
+  justify-content: space-between; 
+  margin: 10px 0;                
+}
+
+
+/* .oops{
+  font-size: 20vh;
+  font-weight: 700
+  
+}
+
+.error_message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+} */
+
+.oops {
+  font-size: 20vh; 
+  font-weight: 700; 
+  position: relative; 
+  display: inline-block; 
+  color: transparent; 
+  background-image: url('/public/images/logo.png'); 
+  /* background-size: contain; */
+  background-repeat: no-repeat; 
+  background-position: center; 
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+
+.error_message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+  /* justify-content: center; */
+  /* min-height: 100vh; */
+}
+
+
+.main_form{
+  display: flex;
+  justify-content: center;
+}
+
+.add_form{
+  margin: 30px 0;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 60%;
+  /* background-color: rgb(238, 237, 237); */
+}
+
+.form_heading{
+  text-align: center;
+  font-family: cursive;
+}
+
+.formBtn{
+  text-align: center;
+}
+
+.spinner{
+  text-align: center;
+  margin: 17% 0;
+
+}
